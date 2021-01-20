@@ -3,7 +3,16 @@ import './App.css';
 
 class App extends Component {
 	render() {
-		return <div className="App">hello :)</div>;
+		const name = 'react';
+		return (
+  <>
+    <div>
+      Hello :) {name}
+      <br />
+    </div>
+    <div>hello</div>
+  </>
+		);
 	}
 }
 
